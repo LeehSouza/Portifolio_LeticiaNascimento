@@ -95,13 +95,14 @@ li {
 }
 
 .projeto {
-    background-color: #E2E8F0; 
+    background-color: #E2E8F0; /* Fundo cinza um pouco mais escuro para o card */
     padding: 20px;
     border-radius: 6px;
     margin-bottom: 20px;
     border-left: 5px solid #1A2E40; 
 }
 
+/* Caixas de Texto*/    
 #contato form input,
 #contato form textarea {
     grid-column: 2;                    
