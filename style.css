@@ -19,26 +19,22 @@ body {
     padding-top: 80px;
 }
 
-/* ==========================================================================
-   2. MENU DE NAVEGAÇÃO CENTRALIZADO
-   ========================================================================== */
 header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #1A2E40; /* O tom de azul-marinho que escolhemos */
+    background-color: #1A2E40; 
     padding: 20px 0;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     z-index: 1000;
 }
 
 nav ul {
-    display: flex;             /* Isso alinha os itens em linha */
-    justify-content: center;   /* Isso centraliza os itens horizontalmente */
-    list-style: none;          /* Remove as bolinhas da lista */
-    gap: 30px;                 /* Cria um espaço entre os links */
-}
+    display: flex;             /* Alinha */
+    justify-content: center;   /* Centraliza */
+    list-style: none;          
+    gap: 30px;                 
 
 nav ul li a {
     color: #E6DFD3;           /* Bege clarinho */
@@ -52,22 +48,19 @@ nav ul li a:hover {
     color: #FFFFFF;           /* Brilha em branco ao passar o mouse */
 }
 
-/* ==========================================================================
-   3. ESTRUTURAÇÃO DAS SEÇÕES (As caixas mudadas para cinza claro)
-   ========================================================================== */
 section {
     max-width: 900px;
     margin: 40px auto;
     padding: 40px 20px;
-    background-color: #F5F5F7; /* Cinza bem clarinho, moderno e sofisticado */
+    background-color: #F5F5F7; 
     border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar do mármore */
-    border: 1px solid #E2E8F0; /* Borda sutil em cinza */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    border: 1px solid #E2E8F0; 
 }
 
 h2 {
-    color: #1A2E40; /* Mantém o azul-marinho imponente nos títulos */
-    border-bottom: 2px solid #CBD5E1; /* Linha divisória em tom de cinza */
+    color: #1A2E40; 
+    border-bottom: 2px solid #CBD5E1; 
     padding-bottom: 10px;
     margin-bottom: 20px;
     font-size: 1.8rem;
@@ -86,7 +79,7 @@ h4 {
 
 p {
     margin-bottom: 15px;
-    color: #1E293B; /* Texto em cinza escuro para excelente leitura */
+    color: #1E293B; 
     text-align: justify;
 }
 
@@ -101,22 +94,17 @@ li {
     margin-bottom: 5px;
 }
 
-/* Container interno de projetos (Ajustado para harmonizar com o cinza claro) */
 .projeto {
-    background-color: #E2E8F0; /* Cinza um pouquinho mais escuro para dar profundidade ao TCC */
+    background-color: #E2E8F0; 
     padding: 20px;
     border-radius: 6px;
     margin-bottom: 20px;
-    border-left: 5px solid #1A2E40; /* Detalhe marcante em azul-marinho na lateral */
+    border-left: 5px solid #1A2E40; 
 }
-
-/* ==========================================================================
-   4. FORMULÁRIO DE CONTATO (Corrigido para preencher a largura)
-   ========================================================================== */
 
 #contato form input,
 #contato form textarea {
-    grid-column: 2;                    /* Fica na segunda coluna */
+    grid-column: 2;                    
     padding: 12px;
     border: 1px solid #CBD5E1;
     border-radius: 4px;
@@ -127,36 +115,32 @@ li {
     box-sizing: border-box;            
 }
 
-/* Ajuste específico para a Mensagem (Textarea) - CORRIGIDO */
 #contato form textarea {
-    grid-column: 2;                    /* Ocupa apenas a segunda coluna (Corrigido) */
+    grid-column: 2;                    
     resize: vertical;                  
     min-height: 150px;                 
-    /* Removemos o 'margin-top' que cortava o label */
 }
 
-/* Rótulo da mensagem (Labels) - CORRIGIDO */
 #contato form label[for="mensagem"] {
-    grid-column: 1;                    /* Fica na primeira coluna (Garante o alinhamento) */
+    grid-column: 1;                    
     text-align: right;                 
     font-weight: 600;
     color: #64748B;
-    /* Removemos o 'align-self: start' que estava empurrando */
 }
 
 #contato form button {
-    display: block; /* Garante que o botão seja tratado como um bloco */
-    margin: 30px auto 0; /* Centraliza horizontalmente e adiciona margem superior */
-    padding: 15px 30px; /* Ajuste o padding para o tamanho desejado */
-    background-color: #E2E8F0; /* Cor de fundo cinza-claro da referência */
-    color: #1A2E40; /* Cor escura do texto */
-    border: 1px solid #CBD5E1; /* Borda sutil */
+    display: block; 
+    margin: 30px auto 0; 
+    padding: 15px 30px; 
+    background-color: #E2E8F0; 
+    color: #1A2E40; 
+    border: 1px solid #CBD5E1; /* Borda*/
     border-radius: 4px;
     cursor: pointer;
     font-size: 1.1rem;
-    font-weight: bold; /* Texto em negrito */
+    font-weight: bold; /*Texto em negrito */
     transition: background-color 0.3s, color 0.3s;
-    width: auto; /* Permite que o botão tenha a largura do conteúdo */
+    width: auto; 
 }
 
 #contato form button:hover {
