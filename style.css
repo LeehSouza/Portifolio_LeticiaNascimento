@@ -19,6 +19,7 @@ body {
     padding-top: 80px;
 }
 
+/* cabeçalho do site */
 header {
     position: fixed;  /* Fixa o menu no topo da tela */
     top: 0;
@@ -29,7 +30,7 @@ header {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     z-index: 1000;
 }
-
+/* Menu*/
 nav ul {
     display: flex;  /* Alinha lado a lado */            
     justify-content: center;   /* Centraliza */
@@ -37,6 +38,7 @@ nav ul {
     gap: 30px;                 
 }
 
+/*tag de link */
 nav ul li a {
     color: #E6DFD3;           
     text-decoration: none;
