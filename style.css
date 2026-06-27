@@ -6,7 +6,7 @@
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;  /* Efeito de rolagem suave */
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 }
 
 header {
-    position: fixed;
+    position: fixed;  /* Fixa o menu no topo da tela */
     top: 0;
     left: 0;
     width: 100%;
@@ -31,8 +31,8 @@ header {
 }
 
 nav ul {
-    display: flex;             
-    justify-content: center;   
+    display: flex;  /* Alinha lado a lado */            
+    justify-content: center;   /* Centraliza */
     list-style: none;          
     gap: 30px;                 
 }
@@ -54,14 +54,14 @@ section {
     margin: 40px auto;
     padding: 40px 20px;
     background-color: #F5F5F7; 
-    border-radius: 8px;
+    border-radius: 8px;  /* Arredonda as bordas */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
     border: 1px solid #E2E8F0; 
 }
 
 h2 {
     color: #1A2E40; 
-    border-bottom: 2px solid #CBD5E1; 
+    border-bottom: 2px solid #CBD5E1; /* Linha divisória */
     padding-bottom: 10px;
     margin-bottom: 20px;
     font-size: 1.8rem;
