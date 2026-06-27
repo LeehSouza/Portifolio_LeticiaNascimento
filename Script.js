@@ -10,13 +10,13 @@ document.addEventListener("DOMContentLoaded", function () {
             const email = formulario.querySelector("input[type='email']").value.trim();
             const mensagem = formulario.querySelector("textarea").value.trim();
 
-            // 1. Validação para verificar se os campos estão vazios 
+            // Validação para verificar se os campos estão vazios 
             if (nome === "" || email === "" || mensagem === "") {
                 alert("Por favor, preencha todos os campos antes de enviar.");
                 return; // Para a execução aqui
             }
 
-            // Validação 
+            // Validação email
             if (!email.includes("@") || !email.includes(".")) {
                 alert("Por favor, insira um e-mail válido.");
                 return;
